@@ -24,9 +24,9 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let name = "Alice";
+let _itemAmount = 5;
+let $price = 20;
+let totalCost = name + " bought " + _itemAmount + " items for $" + $price + ".";
 
-console.log(d);
+console.log(totalCost);
